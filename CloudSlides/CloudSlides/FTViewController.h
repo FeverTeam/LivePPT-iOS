@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "FUIButton.h"
+#import "UIColor+FlatUI.h"
+
 @interface FTViewController : UIViewController
 
 @end

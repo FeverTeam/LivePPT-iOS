@@ -1,1149 +1,590 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1268969C18472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896E218472F1C00F9A633</string>
-				<string>126896AE18472D3D00F9A633</string>
-				<string>126896D018472D3E00F9A633</string>
-				<string>126896A718472D3D00F9A633</string>
-				<string>126896A618472D3D00F9A633</string>
-				<string>517A6DD5ED5F40A99EFAE902</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1268969D18472D3D00F9A633</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>FT</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Fever Team</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>126896C818472D3E00F9A633</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>126896A418472D3D00F9A633</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>126896A018472D3D00F9A633</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>1268969C18472D3D00F9A633</string>
-			<key>productRefGroup</key>
-			<string>126896A618472D3D00F9A633</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>126896A418472D3D00F9A633</string>
-				<string>126896C818472D3E00F9A633</string>
-			</array>
-		</dict>
-		<key>126896A018472D3D00F9A633</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>126896D818472D3E00F9A633</string>
-				<string>126896D918472D3E00F9A633</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>126896A118472D3D00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896B918472D3E00F9A633</string>
-				<string>126896B518472D3D00F9A633</string>
-				<string>126896C218472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896A218472D3D00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896AB18472D3D00F9A633</string>
-				<string>126896AD18472D3D00F9A633</string>
-				<string>126896A918472D3D00F9A633</string>
-				<string>2C4FC7A183DB43C69AB01F38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896A318472D3D00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896E318472F1C00F9A633</string>
-				<string>126896BF18472D3E00F9A633</string>
-				<string>126896C418472D3E00F9A633</string>
-				<string>126896BC18472D3E00F9A633</string>
-				<string>126896B318472D3D00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896A418472D3D00F9A633</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>126896DA18472D3E00F9A633</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5D820F11566441D182F041B0</string>
-				<string>126896A118472D3D00F9A633</string>
-				<string>126896A218472D3D00F9A633</string>
-				<string>126896A318472D3D00F9A633</string>
-				<string>6BFCDD6023EC48ABB7D0151D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CloudSlides</string>
-			<key>productName</key>
-			<string>CloudSlides</string>
-			<key>productReference</key>
-			<string>126896A518472D3D00F9A633</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>126896A518472D3D00F9A633</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CloudSlides.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>126896A618472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896A518472D3D00F9A633</string>
-				<string>126896C918472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896A718472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896A818472D3D00F9A633</string>
-				<string>126896AA18472D3D00F9A633</string>
-				<string>126896AC18472D3D00F9A633</string>
-				<string>126896CA18472D3E00F9A633</string>
-				<string>D4BF7FA00D664162961F2CA0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896A818472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>126896A918472D3D00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896A818472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896AA18472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>126896AB18472D3D00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896AA18472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896AC18472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>126896AD18472D3D00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896AC18472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896AE18472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896B718472D3E00F9A633</string>
-				<string>126896B818472D3E00F9A633</string>
-				<string>126896BA18472D3E00F9A633</string>
-				<string>126896BD18472D3E00F9A633</string>
-				<string>126896C018472D3E00F9A633</string>
-				<string>126896C118472D3E00F9A633</string>
-				<string>126896C318472D3E00F9A633</string>
-				<string>126896AF18472D3D00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CloudSlides</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896AF18472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896B018472D3D00F9A633</string>
-				<string>126896B118472D3D00F9A633</string>
-				<string>126896B418472D3D00F9A633</string>
-				<string>126896B618472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B018472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>CloudSlides-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B118472D3D00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896B218472D3D00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B218472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B318472D3D00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896B118472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896B418472D3D00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B518472D3D00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896B418472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896B618472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CloudSlides-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B718472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FTAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B818472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FTAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896B918472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896B818472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896BA18472D3E00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896BB18472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896BB18472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896BC18472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896BA18472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896BD18472D3E00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896BE18472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896BE18472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896BF18472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896BD18472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896C018472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FTViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896C118472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FTViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896C218472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896C118472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896C318472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896C418472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896C318472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896C518472D3E00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896D718472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896C618472D3E00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896CB18472D3E00F9A633</string>
-				<string>126896CD18472D3E00F9A633</string>
-				<string>126896CC18472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896C718472D3E00F9A633</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>126896D518472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126896C818472D3E00F9A633</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>126896DD18472D3E00F9A633</string>
-			<key>buildPhases</key>
-			<array>
-				<string>126896C518472D3E00F9A633</string>
-				<string>126896C618472D3E00F9A633</string>
-				<string>126896C718472D3E00F9A633</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>126896CF18472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CloudSlidesTests</string>
-			<key>productName</key>
-			<string>CloudSlidesTests</string>
-			<key>productReference</key>
-			<string>126896C918472D3E00F9A633</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>126896C918472D3E00F9A633</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CloudSlidesTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>126896CA18472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>126896CB18472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896CA18472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896CC18472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896A818472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896CD18472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896AC18472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896CE18472D3E00F9A633</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>1268969D18472D3D00F9A633</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>126896A418472D3D00F9A633</string>
-			<key>remoteInfo</key>
-			<string>CloudSlides</string>
-		</dict>
-		<key>126896CF18472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>126896A418472D3D00F9A633</string>
-			<key>targetProxy</key>
-			<string>126896CE18472D3E00F9A633</string>
-		</dict>
-		<key>126896D018472D3E00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896D618472D3E00F9A633</string>
-				<string>126896D118472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CloudSlidesTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D118472D3E00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896D218472D3E00F9A633</string>
-				<string>126896D318472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D218472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>CloudSlidesTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D318472D3E00F9A633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>126896D418472D3E00F9A633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D418472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D518472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896D318472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896D618472D3E00F9A633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CloudSlidesTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896D718472D3E00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896D618472D3E00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>126896D818472D3E00F9A633</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>126896D918472D3E00F9A633</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>126896DA18472D3E00F9A633</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>126896DB18472D3E00F9A633</string>
-				<string>126896DC18472D3E00F9A633</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>126896DB18472D3E00F9A633</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>517A6DD5ED5F40A99EFAE902</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudSlides/CloudSlides-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudSlides/CloudSlides-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>126896DC18472D3E00F9A633</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>517A6DD5ED5F40A99EFAE902</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudSlides/CloudSlides-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudSlides/CloudSlides-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>126896DD18472D3E00F9A633</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>126896DE18472D3E00F9A633</string>
-				<string>126896DF18472D3E00F9A633</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>126896DE18472D3E00F9A633</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CloudSlides.app/CloudSlides</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudSlides/CloudSlides-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudSlidesTests/CloudSlidesTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>126896DF18472D3E00F9A633</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CloudSlides.app/CloudSlides</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudSlides/CloudSlides-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudSlidesTests/CloudSlidesTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>126896E218472F1C00F9A633</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Podfile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>126896E318472F1C00F9A633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126896E218472F1C00F9A633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C4FC7A183DB43C69AB01F38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4BF7FA00D664162961F2CA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>517A6DD5ED5F40A99EFAE902</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D820F11566441D182F041B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6BFCDD6023EC48ABB7D0151D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D4BF7FA00D664162961F2CA0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>1268969D18472D3D00F9A633</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12652D5318478FBD00F153F1 /* splash_join_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */; };
+		12652D5418478FBD00F153F1 /* splash_join_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */; };
+		12652D5B184790EA00F153F1 /* splash_attending_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D55184790EA00F153F1 /* splash_attending_icon_default.9.png */; };
+		12652D5C184790EA00F153F1 /* splash_attending_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D56184790EA00F153F1 /* splash_attending_icon_pressed.9.png */; };
+		12652D5D184790EA00F153F1 /* splash_founding_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D57184790EA00F153F1 /* splash_founding_icon_default.9.png */; };
+		12652D5E184790EA00F153F1 /* splash_founding_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D58184790EA00F153F1 /* splash_founding_icon_pressed.9.png */; };
+		12652D5F184790EA00F153F1 /* splash_ppt_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D59184790EA00F153F1 /* splash_ppt_icon_default.9.png */; };
+		12652D60184790EA00F153F1 /* splash_ppt_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5A184790EA00F153F1 /* splash_ppt_icon_pressed.9.png */; };
+		126896A918472D3D00F9A633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896A818472D3D00F9A633 /* Foundation.framework */; };
+		126896AB18472D3D00F9A633 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896AA18472D3D00F9A633 /* CoreGraphics.framework */; };
+		126896AD18472D3D00F9A633 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896AC18472D3D00F9A633 /* UIKit.framework */; };
+		126896B318472D3D00F9A633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 126896B118472D3D00F9A633 /* InfoPlist.strings */; };
+		126896B518472D3D00F9A633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 126896B418472D3D00F9A633 /* main.m */; };
+		126896B918472D3E00F9A633 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 126896B818472D3E00F9A633 /* FTAppDelegate.m */; };
+		126896BC18472D3E00F9A633 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126896BA18472D3E00F9A633 /* Main_iPhone.storyboard */; };
+		126896BF18472D3E00F9A633 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126896BD18472D3E00F9A633 /* Main_iPad.storyboard */; };
+		126896C218472D3E00F9A633 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126896C118472D3E00F9A633 /* FTViewController.m */; };
+		126896C418472D3E00F9A633 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126896C318472D3E00F9A633 /* Images.xcassets */; };
+		126896CB18472D3E00F9A633 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896CA18472D3E00F9A633 /* XCTest.framework */; };
+		126896CC18472D3E00F9A633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896A818472D3D00F9A633 /* Foundation.framework */; };
+		126896CD18472D3E00F9A633 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126896AC18472D3D00F9A633 /* UIKit.framework */; };
+		126896D518472D3E00F9A633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 126896D318472D3E00F9A633 /* InfoPlist.strings */; };
+		126896D718472D3E00F9A633 /* CloudSlidesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126896D618472D3E00F9A633 /* CloudSlidesTests.m */; };
+		126896E318472F1C00F9A633 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 126896E218472F1C00F9A633 /* Podfile */; };
+		2C4FC7A183DB43C69AB01F38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF7FA00D664162961F2CA0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		126896CE18472D3E00F9A633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1268969D18472D3D00F9A633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126896A418472D3D00F9A633;
+			remoteInfo = CloudSlides;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_join_icon_default.9.png; sourceTree = "<group>"; };
+		12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_join_icon_pressed.9.png; sourceTree = "<group>"; };
+		12652D55184790EA00F153F1 /* splash_attending_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_attending_icon_default.9.png; sourceTree = "<group>"; };
+		12652D56184790EA00F153F1 /* splash_attending_icon_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_attending_icon_pressed.9.png; sourceTree = "<group>"; };
+		12652D57184790EA00F153F1 /* splash_founding_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_founding_icon_default.9.png; sourceTree = "<group>"; };
+		12652D58184790EA00F153F1 /* splash_founding_icon_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_founding_icon_pressed.9.png; sourceTree = "<group>"; };
+		12652D59184790EA00F153F1 /* splash_ppt_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_ppt_icon_default.9.png; sourceTree = "<group>"; };
+		12652D5A184790EA00F153F1 /* splash_ppt_icon_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_ppt_icon_pressed.9.png; sourceTree = "<group>"; };
+		126896A518472D3D00F9A633 /* CloudSlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSlides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126896A818472D3D00F9A633 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		126896AA18472D3D00F9A633 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		126896AC18472D3D00F9A633 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		126896B018472D3D00F9A633 /* CloudSlides-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudSlides-Info.plist"; sourceTree = "<group>"; };
+		126896B218472D3D00F9A633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		126896B418472D3D00F9A633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		126896B618472D3E00F9A633 /* CloudSlides-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudSlides-Prefix.pch"; sourceTree = "<group>"; };
+		126896B718472D3E00F9A633 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		126896B818472D3E00F9A633 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		126896BB18472D3E00F9A633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		126896BE18472D3E00F9A633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		126896C018472D3E00F9A633 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
+		126896C118472D3E00F9A633 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
+		126896C318472D3E00F9A633 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		126896C918472D3E00F9A633 /* CloudSlidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudSlidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		126896CA18472D3E00F9A633 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		126896D218472D3E00F9A633 /* CloudSlidesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudSlidesTests-Info.plist"; sourceTree = "<group>"; };
+		126896D418472D3E00F9A633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		126896D618472D3E00F9A633 /* CloudSlidesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudSlidesTests.m; sourceTree = "<group>"; };
+		126896E218472F1C00F9A633 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		517A6DD5ED5F40A99EFAE902 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D4BF7FA00D664162961F2CA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126896A218472D3D00F9A633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126896AB18472D3D00F9A633 /* CoreGraphics.framework in Frameworks */,
+				126896AD18472D3D00F9A633 /* UIKit.framework in Frameworks */,
+				126896A918472D3D00F9A633 /* Foundation.framework in Frameworks */,
+				2C4FC7A183DB43C69AB01F38 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126896C618472D3E00F9A633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126896CB18472D3E00F9A633 /* XCTest.framework in Frameworks */,
+				126896CD18472D3E00F9A633 /* UIKit.framework in Frameworks */,
+				126896CC18472D3E00F9A633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12652D4F18478FBD00F153F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12652D5018478FBD00F153F1 /* Images */,
+			);
+			name = Resources;
+			path = CloudSlides/Resources;
+			sourceTree = "<group>";
+		};
+		12652D5018478FBD00F153F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12652D55184790EA00F153F1 /* splash_attending_icon_default.9.png */,
+				12652D56184790EA00F153F1 /* splash_attending_icon_pressed.9.png */,
+				12652D57184790EA00F153F1 /* splash_founding_icon_default.9.png */,
+				12652D58184790EA00F153F1 /* splash_founding_icon_pressed.9.png */,
+				12652D59184790EA00F153F1 /* splash_ppt_icon_default.9.png */,
+				12652D5A184790EA00F153F1 /* splash_ppt_icon_pressed.9.png */,
+				12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */,
+				12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1268969C18472D3D00F9A633 = {
+			isa = PBXGroup;
+			children = (
+				12652D4F18478FBD00F153F1 /* Resources */,
+				126896E218472F1C00F9A633 /* Podfile */,
+				126896AE18472D3D00F9A633 /* CloudSlides */,
+				126896D018472D3E00F9A633 /* CloudSlidesTests */,
+				126896A718472D3D00F9A633 /* Frameworks */,
+				126896A618472D3D00F9A633 /* Products */,
+				517A6DD5ED5F40A99EFAE902 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		126896A618472D3D00F9A633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126896A518472D3D00F9A633 /* CloudSlides.app */,
+				126896C918472D3E00F9A633 /* CloudSlidesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126896A718472D3D00F9A633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126896A818472D3D00F9A633 /* Foundation.framework */,
+				126896AA18472D3D00F9A633 /* CoreGraphics.framework */,
+				126896AC18472D3D00F9A633 /* UIKit.framework */,
+				126896CA18472D3E00F9A633 /* XCTest.framework */,
+				D4BF7FA00D664162961F2CA0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		126896AE18472D3D00F9A633 /* CloudSlides */ = {
+			isa = PBXGroup;
+			children = (
+				126896B718472D3E00F9A633 /* FTAppDelegate.h */,
+				126896B818472D3E00F9A633 /* FTAppDelegate.m */,
+				126896BA18472D3E00F9A633 /* Main_iPhone.storyboard */,
+				126896BD18472D3E00F9A633 /* Main_iPad.storyboard */,
+				126896C018472D3E00F9A633 /* FTViewController.h */,
+				126896C118472D3E00F9A633 /* FTViewController.m */,
+				126896C318472D3E00F9A633 /* Images.xcassets */,
+				126896AF18472D3D00F9A633 /* Supporting Files */,
+			);
+			path = CloudSlides;
+			sourceTree = "<group>";
+		};
+		126896AF18472D3D00F9A633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				126896B018472D3D00F9A633 /* CloudSlides-Info.plist */,
+				126896B118472D3D00F9A633 /* InfoPlist.strings */,
+				126896B418472D3D00F9A633 /* main.m */,
+				126896B618472D3E00F9A633 /* CloudSlides-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		126896D018472D3E00F9A633 /* CloudSlidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				126896D618472D3E00F9A633 /* CloudSlidesTests.m */,
+				126896D118472D3E00F9A633 /* Supporting Files */,
+			);
+			path = CloudSlidesTests;
+			sourceTree = "<group>";
+		};
+		126896D118472D3E00F9A633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				126896D218472D3E00F9A633 /* CloudSlidesTests-Info.plist */,
+				126896D318472D3E00F9A633 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126896A418472D3D00F9A633 /* CloudSlides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126896DA18472D3E00F9A633 /* Build configuration list for PBXNativeTarget "CloudSlides" */;
+			buildPhases = (
+				5D820F11566441D182F041B0 /* Check Pods Manifest.lock */,
+				126896A118472D3D00F9A633 /* Sources */,
+				126896A218472D3D00F9A633 /* Frameworks */,
+				126896A318472D3D00F9A633 /* Resources */,
+				6BFCDD6023EC48ABB7D0151D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudSlides;
+			productName = CloudSlides;
+			productReference = 126896A518472D3D00F9A633 /* CloudSlides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		126896C818472D3E00F9A633 /* CloudSlidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126896DD18472D3E00F9A633 /* Build configuration list for PBXNativeTarget "CloudSlidesTests" */;
+			buildPhases = (
+				126896C518472D3E00F9A633 /* Sources */,
+				126896C618472D3E00F9A633 /* Frameworks */,
+				126896C718472D3E00F9A633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126896CF18472D3E00F9A633 /* PBXTargetDependency */,
+			);
+			name = CloudSlidesTests;
+			productName = CloudSlidesTests;
+			productReference = 126896C918472D3E00F9A633 /* CloudSlidesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1268969D18472D3D00F9A633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fever Team";
+				TargetAttributes = {
+					126896C818472D3E00F9A633 = {
+						TestTargetID = 126896A418472D3D00F9A633;
+					};
+				};
+			};
+			buildConfigurationList = 126896A018472D3D00F9A633 /* Build configuration list for PBXProject "CloudSlides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1268969C18472D3D00F9A633;
+			productRefGroup = 126896A618472D3D00F9A633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126896A418472D3D00F9A633 /* CloudSlides */,
+				126896C818472D3E00F9A633 /* CloudSlidesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126896A318472D3D00F9A633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12652D5418478FBD00F153F1 /* splash_join_icon_pressed.9.png in Resources */,
+				12652D5F184790EA00F153F1 /* splash_ppt_icon_default.9.png in Resources */,
+				12652D5E184790EA00F153F1 /* splash_founding_icon_pressed.9.png in Resources */,
+				12652D5B184790EA00F153F1 /* splash_attending_icon_default.9.png in Resources */,
+				126896E318472F1C00F9A633 /* Podfile in Resources */,
+				126896BF18472D3E00F9A633 /* Main_iPad.storyboard in Resources */,
+				126896C418472D3E00F9A633 /* Images.xcassets in Resources */,
+				126896BC18472D3E00F9A633 /* Main_iPhone.storyboard in Resources */,
+				12652D5D184790EA00F153F1 /* splash_founding_icon_default.9.png in Resources */,
+				12652D5318478FBD00F153F1 /* splash_join_icon_default.9.png in Resources */,
+				12652D5C184790EA00F153F1 /* splash_attending_icon_pressed.9.png in Resources */,
+				12652D60184790EA00F153F1 /* splash_ppt_icon_pressed.9.png in Resources */,
+				126896B318472D3D00F9A633 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126896C718472D3E00F9A633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126896D518472D3E00F9A633 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D820F11566441D182F041B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFCDD6023EC48ABB7D0151D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126896A118472D3D00F9A633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126896B918472D3E00F9A633 /* FTAppDelegate.m in Sources */,
+				126896B518472D3D00F9A633 /* main.m in Sources */,
+				126896C218472D3E00F9A633 /* FTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126896C518472D3E00F9A633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126896D718472D3E00F9A633 /* CloudSlidesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		126896CF18472D3E00F9A633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126896A418472D3D00F9A633 /* CloudSlides */;
+			targetProxy = 126896CE18472D3E00F9A633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		126896B118472D3D00F9A633 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126896B218472D3D00F9A633 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		126896BA18472D3E00F9A633 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126896BB18472D3E00F9A633 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		126896BD18472D3E00F9A633 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126896BE18472D3E00F9A633 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		126896D318472D3E00F9A633 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126896D418472D3E00F9A633 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126896D818472D3E00F9A633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		126896D918472D3E00F9A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126896DB18472D3E00F9A633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517A6DD5ED5F40A99EFAE902 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSlides/CloudSlides-Prefix.pch";
+				INFOPLIST_FILE = "CloudSlides/CloudSlides-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		126896DC18472D3E00F9A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517A6DD5ED5F40A99EFAE902 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSlides/CloudSlides-Prefix.pch";
+				INFOPLIST_FILE = "CloudSlides/CloudSlides-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		126896DE18472D3E00F9A633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudSlides.app/CloudSlides";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSlides/CloudSlides-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CloudSlidesTests/CloudSlidesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		126896DF18472D3E00F9A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudSlides.app/CloudSlides";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSlides/CloudSlides-Prefix.pch";
+				INFOPLIST_FILE = "CloudSlidesTests/CloudSlidesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126896A018472D3D00F9A633 /* Build configuration list for PBXProject "CloudSlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126896D818472D3E00F9A633 /* Debug */,
+				126896D918472D3E00F9A633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126896DA18472D3E00F9A633 /* Build configuration list for PBXNativeTarget "CloudSlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126896DB18472D3E00F9A633 /* Debug */,
+				126896DC18472D3E00F9A633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126896DD18472D3E00F9A633 /* Build configuration list for PBXNativeTarget "CloudSlidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126896DE18472D3E00F9A633 /* Debug */,
+				126896DF18472D3E00F9A633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1268969D18472D3D00F9A633 /* Project object */;
+}

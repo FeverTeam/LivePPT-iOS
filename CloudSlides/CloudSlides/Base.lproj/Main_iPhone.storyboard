@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BQE-Aa-sAg">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -9,35 +9,107 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="FTViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="phY-HE-1WU"/>
-                        <viewControllerLayoutGuide type="bottom" id="V0j-dq-QUF"/>
+                        <viewControllerLayoutGuide type="top" id="faF-WX-rJd"/>
+                        <viewControllerLayoutGuide type="bottom" id="RqA-Em-Yc4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CloudSlides" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="op6-uO-WRE">
-                                <rect key="frame" x="114" y="274" width="93" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmg-jt-1fH">
+                                <rect key="frame" x="12" y="129" width="150" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" image="splash_ppt_icon_default.9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gR-C4-sw6">
+                                <rect key="frame" x="163" y="129" width="150" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="splash_founding_icon_default.9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueG-sO-fQF">
+                                <rect key="frame" x="12" y="296" width="150" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="splash_join_icon_default.9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRh-1n-1qH">
+                                <rect key="frame" x="165" y="296" width="150" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="splash_attending_icon_default.9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CloudSlides 云幻灯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-RX-Yer">
+                                <rect key="frame" x="0.0" y="47" width="320" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="op6-uO-WRE" secondAttribute="centerX" id="FHP-3s-OYb"/>
-                            <constraint firstAttribute="centerY" secondItem="op6-uO-WRE" secondAttribute="centerY" id="qyX-XR-Jyl"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pmg-jt-1fH" secondAttribute="trailing" constant="1" id="2LR-Jx-D6N"/>
+                            <constraint firstItem="RqA-Em-Yc4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ueG-sO-fQF" secondAttribute="bottom" id="4ZT-At-HzO"/>
+                            <constraint firstItem="BRh-1n-1qH" firstAttribute="bottom" secondItem="ueG-sO-fQF" secondAttribute="bottom" id="C0H-pf-8kT"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="height" secondItem="BRh-1n-1qH" secondAttribute="height" id="MAF-zj-1ig"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="width" secondItem="pmg-jt-1fH" secondAttribute="width" id="O7F-0D-wDA"/>
+                            <constraint firstItem="pmg-jt-1fH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ORj-6c-XgN"/>
+                            <constraint firstItem="ueG-sO-fQF" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pmg-jt-1fH" secondAttribute="bottom" constant="1" id="Pq5-OW-Xlv"/>
+                            <constraint firstItem="M3x-RX-Yer" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Stk-D2-bx8"/>
+                            <constraint firstItem="pmg-jt-1fH" firstAttribute="top" secondItem="8gR-C4-sw6" secondAttribute="top" id="TXD-Xt-eoJ"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="width" secondItem="ueG-sO-fQF" secondAttribute="width" id="Udt-h0-f7s"/>
+                            <constraint firstItem="pmg-jt-1fH" firstAttribute="top" secondItem="M3x-RX-Yer" secondAttribute="top" constant="82" id="Z3Y-fi-Yqd"/>
+                            <constraint firstItem="pmg-jt-1fH" firstAttribute="leading" secondItem="ueG-sO-fQF" secondAttribute="leading" id="cJB-UI-sqw"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8gR-C4-sw6" secondAttribute="trailing" id="dPY-Qr-yYw"/>
+                            <constraint firstAttribute="trailing" secondItem="M3x-RX-Yer" secondAttribute="trailing" id="ezk-qf-mRK"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="width" secondItem="BRh-1n-1qH" secondAttribute="width" id="fXq-SU-qTu"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="height" secondItem="pmg-jt-1fH" secondAttribute="height" id="g3N-So-gtV"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="trailing" secondItem="BRh-1n-1qH" secondAttribute="trailing" id="lK0-9f-d4u"/>
+                            <constraint firstItem="M3x-RX-Yer" firstAttribute="top" secondItem="faF-WX-rJd" secondAttribute="bottom" constant="30" id="rel-s0-pG4"/>
+                            <constraint firstItem="8gR-C4-sw6" firstAttribute="height" secondItem="ueG-sO-fQF" secondAttribute="height" id="w8v-fw-Kxx"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="NzT-7V-ozQ"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="174" y="-214"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FSu-Ro-zxa">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="BQE-Aa-sAg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6KO-ws-1O9"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2di-Rf-Ibt">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="ecv-4r-THN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjL-Zz-rGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-411" y="-214"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="splash_attending_icon_default.9.png" width="257" height="257"/>
+        <image name="splash_founding_icon_default.9.png" width="257" height="257"/>
+        <image name="splash_join_icon_default.9.png" width="257" height="257"/>
+        <image name="splash_ppt_icon_default.9.png" width="257" height="257"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
