@@ -17,11 +17,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmg-jt-1fH">
-                                <rect key="frame" x="12" y="129" width="150" height="170"/>
+                                <rect key="frame" x="12" y="128" width="150" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="splash_ppt_icon_default.9.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btn1Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m9e-Pt-DuN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gR-C4-sw6">
                                 <rect key="frame" x="163" y="129" width="150" height="170"/>
@@ -77,19 +80,97 @@
                     </view>
                     <navigationItem key="navigationItem" id="NzT-7V-ozQ"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="YMt-lV-VEi" kind="push" identifier="segue_login" id="jTU-wN-yWd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="174" y="-214"/>
+            <point key="canvasLocation" x="108" y="-698"/>
+        </scene>
+        <!--Login View Controller - 登录CloudSlides帐号-->
+        <scene sceneID="1fW-kh-sLN">
+            <objects>
+                <viewController id="YMt-lV-VEi" customClass="FTLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zIK-kJ-jmJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="szh-U6-RjA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2wM-ws-k6a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email 电邮" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eZe-JN-6Zl">
+                                <rect key="frame" x="62" y="100" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password 密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="evB-y9-Mir">
+                                <rect key="frame" x="62" y="148" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avQ-sK-haj" customClass="FUIButton">
+                                <rect key="frame" x="62" y="211" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerBtnPressed:" destination="YMt-lV-VEi" eventType="touchUpInside" id="l49-DI-bkc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISu-2C-aX8" customClass="FUIButton">
+                                <rect key="frame" x="159" y="211" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtnPressed:" destination="YMt-lV-VEi" eventType="touchUpInside" id="Srk-oX-AKI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ISu-2C-aX8" firstAttribute="leading" secondItem="avQ-sK-haj" secondAttribute="trailing" constant="5" id="1ab-Rx-PyE"/>
+                            <constraint firstItem="ISu-2C-aX8" firstAttribute="width" secondItem="avQ-sK-haj" secondAttribute="width" id="DLc-Bi-qAs"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="leading" secondItem="evB-y9-Mir" secondAttribute="leading" id="Fun-mi-DCU"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="leading" secondItem="avQ-sK-haj" secondAttribute="leading" id="G0b-mV-hPv"/>
+                            <constraint firstItem="ISu-2C-aX8" firstAttribute="top" secondItem="avQ-sK-haj" secondAttribute="top" id="HLv-en-I1Y"/>
+                            <constraint firstItem="ISu-2C-aX8" firstAttribute="height" secondItem="avQ-sK-haj" secondAttribute="height" id="K4r-xz-hyB"/>
+                            <constraint firstAttribute="trailing" secondItem="eZe-JN-6Zl" secondAttribute="trailing" constant="50" id="L0G-0e-Huz"/>
+                            <constraint firstItem="ISu-2C-aX8" firstAttribute="trailing" secondItem="eZe-JN-6Zl" secondAttribute="trailing" id="N8b-Qq-Nad"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="width" secondItem="evB-y9-Mir" secondAttribute="width" id="VyB-D9-ZOM"/>
+                            <constraint firstItem="evB-y9-Mir" firstAttribute="top" secondItem="eZe-JN-6Zl" secondAttribute="bottom" constant="20" id="ZEd-6k-Qew"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="top" secondItem="zIK-kJ-jmJ" secondAttribute="bottom" constant="20" id="i5m-Ee-nUU"/>
+                            <constraint firstItem="avQ-sK-haj" firstAttribute="top" secondItem="evB-y9-Mir" secondAttribute="bottom" constant="20" id="kw4-di-CbT"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="leading" secondItem="2wM-ws-k6a" secondAttribute="leading" constant="50" id="tBq-Ae-ebE"/>
+                            <constraint firstItem="eZe-JN-6Zl" firstAttribute="height" secondItem="evB-y9-Mir" secondAttribute="height" id="xHG-bQ-vAT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="登录CloudSlides帐号" id="lbK-27-3HR"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="emailText" destination="eZe-JN-6Zl" id="isA-a0-g68"/>
+                        <outlet property="loginBtn" destination="ISu-2C-aX8" id="CZf-oA-Fxt"/>
+                        <outlet property="passwordText" destination="evB-y9-Mir" id="eCb-DA-3UA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j6H-QD-QVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="-741"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FSu-Ro-zxa">
             <objects>
-                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="BQE-Aa-sAg" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="BQE-Aa-sAg" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="6KO-ws-1O9"/>
-                    <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2di-Rf-Ibt">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1240FABA18484C5D0085D230 /* FTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1240FAB918484C5D0085D230 /* FTLoginViewController.m */; };
 		12652D5318478FBD00F153F1 /* splash_join_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */; };
 		12652D5418478FBD00F153F1 /* splash_join_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */; };
 		12652D5B184790EA00F153F1 /* splash_attending_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D55184790EA00F153F1 /* splash_attending_icon_default.9.png */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1240FAB818484C5D0085D230 /* FTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTLoginViewController.h; path = Resources/ViewController/FTLoginViewController.h; sourceTree = "<group>"; };
+		1240FAB918484C5D0085D230 /* FTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTLoginViewController.m; path = Resources/ViewController/FTLoginViewController.m; sourceTree = "<group>"; };
 		12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_join_icon_default.9.png; sourceTree = "<group>"; };
 		12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_join_icon_pressed.9.png; sourceTree = "<group>"; };
 		12652D55184790EA00F153F1 /* splash_attending_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_attending_icon_default.9.png; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 				126896C118472D3E00F9A633 /* FTViewController.m */,
 				126896C318472D3E00F9A633 /* Images.xcassets */,
 				126896AF18472D3D00F9A633 /* Supporting Files */,
+				12E2DEE41847C74900481C5B /* ViewController */,
 			);
 			path = CloudSlides;
 			sourceTree = "<group>";
@@ -203,6 +207,15 @@
 				126896D318472D3E00F9A633 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E2DEE41847C74900481C5B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1240FAB818484C5D0085D230 /* FTLoginViewController.h */,
+				1240FAB918484C5D0085D230 /* FTLoginViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1240FABA18484C5D0085D230 /* FTLoginViewController.m in Sources */,
 				126896B918472D3E00F9A633 /* FTAppDelegate.m in Sources */,
 				126896B518472D3D00F9A633 /* main.m in Sources */,
 				126896C218472D3E00F9A633 /* FTViewController.m in Sources */,
