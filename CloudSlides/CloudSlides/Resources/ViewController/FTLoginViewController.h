@@ -11,11 +11,14 @@
 
 @interface FTLoginViewController : UIViewController<UITextFieldDelegate> 
 
+//TextFields
 @property (weak, nonatomic) IBOutlet UITextField *emailText;
 @property (weak, nonatomic) IBOutlet UITextField *passwordText;
 
-
-
+//Buttons
 @property (weak, nonatomic) IBOutlet FUIButton *loginBtn;
+
+//Events
+//-(void) loginWithEmail:(NSString *)email withPassword:(NSString *)password;
 
 @end

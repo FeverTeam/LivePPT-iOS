@@ -1,10 +1,33 @@
 PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
   - FlatUIKit (1.2)
+  - GHKit (1.0.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - FlatUIKit
+  - GHKit
 
 SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
   FlatUIKit: 43b2acaa6f4ef57539b51b00e4ce62d506e33e11
+  GHKit: de21e8d94d33049c19239b9be46c4a61c4dd0fc7
 
 COCOAPODS: 0.28.0

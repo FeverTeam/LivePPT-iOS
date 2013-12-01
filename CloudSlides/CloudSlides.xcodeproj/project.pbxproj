@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122A03B4184B94B00096CFF2 /* FTEmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 122A03B3184B94B00096CFF2 /* FTEmailValidation.m */; };
+		123B4F92184A1C0400679BCC /* FTLoginInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123B4F91184A1C0400679BCC /* FTLoginInfoController.m */; };
+		123B4F96184A1DD900679BCC /* FTLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 123B4F95184A1DD900679BCC /* FTLoginInfo.m */; };
+		123E5118184AEC5A00AEC3B4 /* FTAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E5117184AEC5A00AEC3B4 /* FTAFNetworking.m */; };
+		123E511B184B203600AEC3B4 /* FTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E511A184B203600AEC3B4 /* FTResponse.m */; };
 		1240FABA18484C5D0085D230 /* FTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1240FAB918484C5D0085D230 /* FTLoginViewController.m */; };
 		12652D5318478FBD00F153F1 /* splash_join_icon_default.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */; };
 		12652D5418478FBD00F153F1 /* splash_join_icon_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12652D5218478FBD00F153F1 /* splash_join_icon_pressed.9.png */; };
@@ -32,6 +37,7 @@
 		126896D518472D3E00F9A633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 126896D318472D3E00F9A633 /* InfoPlist.strings */; };
 		126896D718472D3E00F9A633 /* CloudSlidesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126896D618472D3E00F9A633 /* CloudSlidesTests.m */; };
 		126896E318472F1C00F9A633 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 126896E218472F1C00F9A633 /* Podfile */; };
+		12EC23F51849D2F800377E62 /* FTHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC23F41849D2F800377E62 /* FTHMAC.m */; };
 		2C4FC7A183DB43C69AB01F38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF7FA00D664162961F2CA0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122A03B2184B94B00096CFF2 /* FTEmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTEmailValidation.h; path = Resources/Utils/FTEmailValidation.h; sourceTree = "<group>"; };
+		122A03B3184B94B00096CFF2 /* FTEmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTEmailValidation.m; path = Resources/Utils/FTEmailValidation.m; sourceTree = "<group>"; };
+		123B4F90184A1C0400679BCC /* FTLoginInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTLoginInfoController.h; path = Resources/DataController/FTLoginInfoController.h; sourceTree = "<group>"; };
+		123B4F91184A1C0400679BCC /* FTLoginInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTLoginInfoController.m; path = Resources/DataController/FTLoginInfoController.m; sourceTree = "<group>"; };
+		123B4F94184A1DD900679BCC /* FTLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTLoginInfo.h; path = Resources/Model/FTLoginInfo.h; sourceTree = "<group>"; };
+		123B4F95184A1DD900679BCC /* FTLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTLoginInfo.m; path = Resources/Model/FTLoginInfo.m; sourceTree = "<group>"; };
+		123E5116184AEC5A00AEC3B4 /* FTAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTAFNetworking.h; path = Resources/Utils/FTAFNetworking.h; sourceTree = "<group>"; };
+		123E5117184AEC5A00AEC3B4 /* FTAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTAFNetworking.m; path = Resources/Utils/FTAFNetworking.m; sourceTree = "<group>"; };
+		123E5119184B203600AEC3B4 /* FTResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTResponse.h; path = Resources/Model/FTResponse.h; sourceTree = "<group>"; };
+		123E511A184B203600AEC3B4 /* FTResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTResponse.m; path = Resources/Model/FTResponse.m; sourceTree = "<group>"; };
 		1240FAB818484C5D0085D230 /* FTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTLoginViewController.h; path = Resources/ViewController/FTLoginViewController.h; sourceTree = "<group>"; };
 		1240FAB918484C5D0085D230 /* FTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTLoginViewController.m; path = Resources/ViewController/FTLoginViewController.m; sourceTree = "<group>"; };
 		12652D5118478FBD00F153F1 /* splash_join_icon_default.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_join_icon_default.9.png; sourceTree = "<group>"; };
@@ -76,7 +92,9 @@
 		126896D218472D3E00F9A633 /* CloudSlidesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudSlidesTests-Info.plist"; sourceTree = "<group>"; };
 		126896D418472D3E00F9A633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		126896D618472D3E00F9A633 /* CloudSlidesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudSlidesTests.m; sourceTree = "<group>"; };
-		126896E218472F1C00F9A633 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		126896E218472F1C00F9A633 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12EC23F31849D2F800377E62 /* FTHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTHMAC.h; path = Resources/Utils/FTHMAC.h; sourceTree = "<group>"; };
+		12EC23F41849D2F800377E62 /* FTHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTHMAC.m; path = Resources/Utils/FTHMAC.m; sourceTree = "<group>"; };
 		517A6DD5ED5F40A99EFAE902 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D4BF7FA00D664162961F2CA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +124,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123B4F8F184A1BD100679BCC /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				123B4F90184A1C0400679BCC /* FTLoginInfoController.h */,
+				123B4F91184A1C0400679BCC /* FTLoginInfoController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		123B4F93184A1DBB00679BCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				123B4F94184A1DD900679BCC /* FTLoginInfo.h */,
+				123B4F95184A1DD900679BCC /* FTLoginInfo.m */,
+				123E5119184B203600AEC3B4 /* FTResponse.h */,
+				123E511A184B203600AEC3B4 /* FTResponse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		12652D4F18478FBD00F153F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +205,10 @@
 		126896AE18472D3D00F9A633 /* CloudSlides */ = {
 			isa = PBXGroup;
 			children = (
+				123B4F93184A1DBB00679BCC /* Model */,
+				123B4F8F184A1BD100679BCC /* DataController */,
+				12E2DEE41847C74900481C5B /* ViewController */,
+				12EC23EF1849D2A500377E62 /* Utils */,
 				126896B718472D3E00F9A633 /* FTAppDelegate.h */,
 				126896B818472D3E00F9A633 /* FTAppDelegate.m */,
 				126896BA18472D3E00F9A633 /* Main_iPhone.storyboard */,
@@ -175,7 +217,6 @@
 				126896C118472D3E00F9A633 /* FTViewController.m */,
 				126896C318472D3E00F9A633 /* Images.xcassets */,
 				126896AF18472D3D00F9A633 /* Supporting Files */,
-				12E2DEE41847C74900481C5B /* ViewController */,
 			);
 			path = CloudSlides;
 			sourceTree = "<group>";
@@ -216,6 +257,19 @@
 				1240FAB918484C5D0085D230 /* FTLoginViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		12EC23EF1849D2A500377E62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				12EC23F31849D2F800377E62 /* FTHMAC.h */,
+				12EC23F41849D2F800377E62 /* FTHMAC.m */,
+				123E5116184AEC5A00AEC3B4 /* FTAFNetworking.h */,
+				123E5117184AEC5A00AEC3B4 /* FTAFNetworking.m */,
+				122A03B2184B94B00096CFF2 /* FTEmailValidation.h */,
+				122A03B3184B94B00096CFF2 /* FTEmailValidation.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +416,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1240FABA18484C5D0085D230 /* FTLoginViewController.m in Sources */,
+				123E511B184B203600AEC3B4 /* FTResponse.m in Sources */,
 				126896B918472D3E00F9A633 /* FTAppDelegate.m in Sources */,
+				12EC23F51849D2F800377E62 /* FTHMAC.m in Sources */,
+				123B4F92184A1C0400679BCC /* FTLoginInfoController.m in Sources */,
+				123E5118184AEC5A00AEC3B4 /* FTAFNetworking.m in Sources */,
+				123B4F96184A1DD900679BCC /* FTLoginInfo.m in Sources */,
+				122A03B4184B94B00096CFF2 /* FTEmailValidation.m in Sources */,
 				126896B518472D3D00F9A633 /* main.m in Sources */,
 				126896C218472D3E00F9A633 /* FTViewController.m in Sources */,
 			);
